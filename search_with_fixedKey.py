@@ -186,9 +186,7 @@ if __name__ == '__main__':
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
-        # "x-client-transaction-id": "z0jC2zPqJBwF4295o7yFQ9HnJST9yIAx5/qwZjnOP6Ctehw/dGPCYkj2QUycVXD01ajHBczXUild8tNizryiSoNUsDNjzA",
         "x-client-transaction-id": tid,
-        # "x-csrf-token": "7016be3227d88d612701073c787c3bdabb859a4032366cebef505f4f28ed03570ba808a9994a88963e3ad5cbdec74a6c557833fda1023ac448272b7c6d50f215c1c18930a987b1b4c4cfe90f7a52dca5",
         "x-csrf-token": cookies['ct0'],  # 用户登录后获取的csrf_token
         "x-twitter-active-user": "yes",
         "x-twitter-auth-type": "OAuth2Session",

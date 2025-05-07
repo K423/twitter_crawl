@@ -142,7 +142,6 @@ def get_follower_list(_userNickName, _userId, _cookies, _tid):
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
         "x-client-transaction-id": _tid,
         "x-client-uuid": "b939b973-06c1-4f30-93e7-469f84ffe9c6",  # 随机生成的uuid
-        # "x-csrf-token": "7016be3227d88d612701073c787c3bdabb859a4032366cebef505f4f28ed03570ba808a9994a88963e3ad5cbdec74a6c557833fda1023ac448272b7c6d50f215c1c18930a987b1b4c4cfe90f7a52dca5",
         "x-csrf-token": _cookies['ct0'],
         "x-twitter-active-user": "yes",
         "x-twitter-auth-type": "OAuth2Session",
