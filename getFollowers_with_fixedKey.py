@@ -6,7 +6,7 @@ import struct
 import base64
 from loguru import logger
 import requests
-import os
+import os 
 
 
 def get_dynamic_e():
