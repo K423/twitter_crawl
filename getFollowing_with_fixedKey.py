@@ -261,16 +261,6 @@ if __name__ == '__main__':
     time.sleep(random.randint(2, 3))
 
     cookies = {
-        "guest_id_marketing": "v1%3A174600079905711698",
-        "guest_id_ads": "v1%3A174600079905711698",
-        "guest_id": "v1%3A174600079905711698",
-        "personalization_id": "\"v1_D12j4LJOaBchjRqRIcRnzg==\"",
-        "kdt": "zJ3LyRfC2RA9QBKeuLfwEXxtbXRip1ixfuj9QzEP",
-        "auth_token": "2febe5874adae57abb5f0d7c7f0cf3d6a674bac2",
-        "ct0": "7016be3227d88d612701073c787c3bdabb859a4032366cebef505f4f28ed03570ba808a9994a88963e3ad5cbdec74a6c557833fda1023ac448272b7c6d50f215c1c18930a987b1b4c4cfe90f7a52dca5",
-        "lang": "en",
-        "twid": "u%3D1831257378882461696",
-        "__cf_bm": "zFu34cUIDdMojhsd6UwTPGk7JvAS4cuxKQBmsnSj.oA-1746510850-1.0.1.1-smsLQeiscKEUQXZK.29CVRqS.JTg9z2tLNYzspvIVmQELGdYERMCZQJtKrPr_9DomFzfDCDR9I3o4sKUQJlwDLIFzG..OYmcoHWaXmYHgpg"
     }
 
     api = "GET!/i/api/graphql/zx6e-TLzRkeDO_a7p4b3JQ/Following"  # 关注接口

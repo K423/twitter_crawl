@@ -258,16 +258,6 @@ if __name__ == '__main__':
     # userId = "1413042610327879681"  # 请求用户的id, 通过请求获取
 
     cookies = {
-        "guest_id_marketing": "v1%3A174600079905711698",
-        "guest_id_ads": "v1%3A174600079905711698",
-        "guest_id": "v1%3A174600079905711698",
-        "personalization_id": "\"v1_D12j4LJOaBchjRqRIcRnzg==\"",
-        "kdt": "zJ3LyRfC2RA9QBKeuLfwEXxtbXRip1ixfuj9QzEP",
-        "auth_token": "2febe5874adae57abb5f0d7c7f0cf3d6a674bac2",
-        "ct0": "7016be3227d88d612701073c787c3bdabb859a4032366cebef505f4f28ed03570ba808a9994a88963e3ad5cbdec74a6c557833fda1023ac448272b7c6d50f215c1c18930a987b1b4c4cfe90f7a52dca5",
-        "lang": "en",
-        "twid": "u%3D1831257378882461696",
-        "__cf_bm": "245BCGZm49h3y4d4uDCcWOS8.PGtAbkNuXnIbV_GEKY-1746509018-1.0.1.1-1px_gR5pychsDot8Ej7QT9buHswOUkiL_0lJBCtB7p3o1t42gF0EolCrMoEd.6o.kdwpabYFmjIYMwyrU1Y5UTfu.twBv1FgMvC6gohcXfo"
     }
 
     api = "GET!/i/api/graphql/IOh4aS6UdGWGJUYTqliQ7Q/Followers"  # 粉丝接口
