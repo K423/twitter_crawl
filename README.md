@@ -1,1 +1,1 @@
-about twitter x-client-transaction-id *******
+about twitter x-client-transaction-id
